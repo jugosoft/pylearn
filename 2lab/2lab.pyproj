@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>388f4afe-bb4c-4ab3-a75a-01c6ab78d8b2</ProjectGuid>
+    <ProjectGuid>73297b88-ec93-4c90-973e-7b2b239f68b3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyLearn.py</StartupFile>
+    <StartupFile>2lab.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PyLearn</Name>
-    <RootNamespace>PyLearn</RootNamespace>
+    <Name>2lab</Name>
+    <RootNamespace>2lab</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PyLearn.py" />
+    <Compile Include="2lab.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
