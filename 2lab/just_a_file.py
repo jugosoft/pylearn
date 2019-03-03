@@ -12,6 +12,7 @@ var[1] = 'mutated value'
 print(new_var)  # try the same with `copy()`
 # end
 
+this_is_dict = {}
 
 # operations with dicts:
 
