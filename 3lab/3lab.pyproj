@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>55e87a8a-4630-4172-acf0-45116d1fc2d1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>exceptions.py</StartupFile>
+    <StartupFile>funcs\fp.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,15 @@
     <Compile Include="exceptions.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="funcs\args_kwargs.py" />
+    <Compile Include="funcs\enclosing.py" />
+    <Compile Include="funcs\fp.py" />
+    <Compile Include="funcs\functions_are_objects.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="funcs\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
